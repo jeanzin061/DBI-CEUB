@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B70D487-984D-AF06-508E-3D9EA8D55DF8" name="VendedorSwexato">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:44:38 UTC</createdTime>
+<generatorID>E2986261-110E-A707-305A-EDAB95E29F28</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NomeVendedor" id="79F23867-6C58-F85B-C1AD-E8704DF38FE9">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:44:38 UTC</createdTime>
+<generatorID>1710DE9D-2656-16F0-9EA7-C83132B01A29</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CpfVendedor" id="D091F6DE-C2D1-50E3-880C-3D1864292DFC">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:44:38 UTC</createdTime>
+<generatorID>C8AEA874-6B50-FD44-1346-5C4A36961687</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MatriculaVendedor" id="3A7B2C1A-4927-2963-55BE-64D805178FFD">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:44:38 UTC</createdTime>
+<generatorID>50A12C7B-853A-2A12-71A4-CED2130088A7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VendedorSwexato_ID" id="13D583B3-D7D5-F134-2FF3-935B25060909">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:44:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Pedidos_Pedidos_ID" id="F07BA332-377A-C75F-F72E-03E4910C368F">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:44:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="177D1B4A-02CE-E755-9A45-ED52B6DFACC6" referredColumn="012364EA-DD8B-F8E9-B552-A9889C9ECEF4"/>
+</associations>
+</Column>
+<Column name="Cliente_Cliente_ID" id="2F92E52B-1E57-BE52-0B21-CA71B3083284">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:51:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58258825-19DC-CEBE-5B15-69815B525805" referredColumn="36EDE46A-4C41-B781-5EF2-075C155C0133"/>
+</associations>
+</Column>
+<Column name="EmpresaSwexato_EmpresaSwexato_ID" id="4E260DDB-8B52-D25D-B4A0-D1008FDE299A">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:53:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3064E7A6-32D3-9330-365F-5D473AAC2164" referredColumn="D1266460-EA0B-9D00-D62C-F09A3885E62C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="658B4AAF-7E3A-6A0B-7368-07E55658352D" name="VendedorSwexato_PK">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:44:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="13D583B3-D7D5-F134-2FF3-935B25060909"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E9BD987-3CFA-40A1-8D84-B5B154DEC4E5" name="VendedorSwexato_Pedidos_FK">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:44:39 UTC</createdTime>
+<generatorID>D6C23ABD-D087-37E5-2032-837FAE62B099</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F07BA332-377A-C75F-F72E-03E4910C368F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="884AD475-F1A6-FA37-7BEC-14EA06B5D867" name="VendedorSwexato_Cliente_FK">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:51:02 UTC</createdTime>
+<generatorID>4D8BF238-15C3-5FC1-2894-DF7595AF7BB3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F92E52B-1E57-BE52-0B21-CA71B3083284"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1C477BF-83D0-2ADA-D4EB-4060E8D6285D" name="VendedorSwexato_EmpresaSwexato_FK">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:53:03 UTC</createdTime>
+<generatorID>E830F355-36ED-59C2-62DD-2CA61C53B482</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E260DDB-8B52-D25D-B4A0-D1008FDE299A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

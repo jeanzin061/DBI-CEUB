@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3064E7A6-32D3-9330-365F-5D473AAC2164" containerWithKeyObject="5B70D487-984D-AF06-508E-3D9EA8D55DF8" localFKIndex="C1C477BF-83D0-2ADA-D4EB-4060E8D6285D" name="VendedorSwexato_EmpresaSwexato_FK">
+<createdBy>jeanbrito061</createdBy>
+<createdTime>2025-05-06 00:53:03 UTC</createdTime>
+<generatorID>E830F355-36ED-59C2-62DD-2CA61C53B482</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referredTableLongName>EmpresaSwexato</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F1BA02A-C185-3840-39DF-7CABD4E4F4E2</referredTableID>
+<keyObject>5D23A14A-4947-48A1-6971-F17277545F25</keyObject>
+<referredKeyID>5D23A14A-4947-48A1-6971-F17277545F25</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EmpresaSwexato_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
